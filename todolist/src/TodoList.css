@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: -30px;
+}
+.todo {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  border-radius:8px;
+}
+.addbtn{
+ 
+    width: 18%;
+    padding: 12px;
+    box-sizing:border-box;
+    border-radius:8px;
+    text-align: center;
+    transition-duration: 0.4s;
+    margin-left:4px;
+   
+}
+.addbtn:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+
+}

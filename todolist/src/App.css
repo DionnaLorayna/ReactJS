@@ -1,5 +1,18 @@
+body {
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .App {
   text-align: center;
+  color:white;
+  width: 15%;
+  border: 10px solid rgb(103, 107, 113);
+  border-style:ridge;
+  padding: 50px;
+  border-radius:15px;
+  margin:auto;
+  margin-top:10%;
 }
 
 .App-logo {
@@ -23,7 +36,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
