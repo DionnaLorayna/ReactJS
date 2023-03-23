@@ -44,9 +44,9 @@ return (
 
     {todos.map((todo, index) => (
 
-      <li key={index} style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
-      <input  style={{ float: 'left'}}type="checkbox" checked={todo.completed} onChange={() => handleCheckboxChange(index)} />
-      <span style={{ float: 'left', fontFamily:'sans-serif'}}>{todo.text}</span>
+      <li key={todo.index} style={{ textDecoration: todo.completed && 'line-through', textAlign: "left"}}>
+      <input type="checkbox" checked={todo.completed} onChange={() => handleCheckboxChange(index)} />
+      {todo.text}
       <button style={{ marginLeft: '15px', float: 'right', backgroundColor:'red', color: 'white' }} onClick={() => handleTodoDelete(index)}>Delete</button>
       </li>
 
